@@ -1,0 +1,194 @@
+@import 'per';
+
+//npm install node-sass --global
+// node-sass --watch kl.scss kl.css --source-map true
+
+#preloader .textload {
+	color: $col;
+}
+a {
+    color:$col;
+}
+a.line:hover {
+    border-bottom: 1px solid $col;
+}
+a:hover,
+a:focus {
+    color: $col;
+}
+
+.post-title a:hover {
+    color: $col
+}
+.section-title span {
+	color: $col
+}
+.meta a:hover,
+.more:hover {
+	color: $col
+}
+ul.circled li:before {
+    color: $col;
+}
+.contact-info i {
+    color: $col;
+}
+.contact-info a:hover {
+    color: $col
+}
+.btn,
+.vanilla-form label.custom-select span {
+    background: $col;
+}
+.navbar .nav > li.current > a,
+.navbar .navbar-nav > li > a:focus,
+.navbar .nav > li > a:hover {
+    color: $col !important 
+}
+.navbar .dropdown-menu li:first-child {
+    border-top: 2px solid $col
+}
+.navbar .dropdown-menu li a:hover,
+.navbar .dropdown-menu li a.active,
+.navbar .nav .open > a,
+.navbar .nav .open > a:hover,
+.navbar .nav .open > a:focus,
+.navbar .dropdown-menu > li > a:hover,
+.navbar .dropdown-menu > li > a:focus,
+.navbar .dropdown-submenu:hover > a,
+.navbar .dropdown-submenu:focus > a,
+.navbar .dropdown-menu > .active > a,
+.navbar .dropdown-menu > .active > a:hover,
+.navbar .dropdown-menu > .active > a:focus {
+    color: $col;
+}
+.cbp-filter-container .cbp-filter-item:hover,
+.cbp-filter-container .cbp-filter-item.cbp-filter-item-active,
+.sticky-filter ul li a:hover,
+.sticky-filter ul li.current a {
+    color: $col !important;
+}
+.item-details li strong {
+    color: $col;
+}
+.pagination ul > li > a:hover,
+.pagination ul > li > a:focus,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+	color: $col
+}
+.sidebox a:hover {
+    color: $col
+}
+.widget .post-list h5 a:hover {
+    color: $col
+}
+.widget .post-list .meta em a:hover {
+    color: $col
+}
+footer ul.tag-list li a:hover {
+    background: $col !important;
+}
+.sidebox ul.tag-list li a:hover {
+    color: $col !important;
+}
+.blog-carousel .caption-overlay .caption .post-title a:hover {
+	color: $col;
+}
+.blog-carousel .caption-overlay .caption .meta a:hover {
+	color: $col;
+}
+.progress-list li em {
+    color: $col;
+}
+.progress.plain .bar {
+    background: $col !important;
+}
+.feature .icon {
+    color: $col
+}
+.icon-large {
+    color: $col;
+}
+.tabs-top .tab a:hover,
+.tabs-top .tab.active a {
+    background: $col;
+}
+.panel-group .panel-heading .panel-title:hover,
+.panel-group .panel-active .panel-heading .panel-title {
+    background:$col;
+}
+.price {
+    color: $col;
+}
+.tooltip-inner {
+    background-color: $col;
+}
+.tooltip.top .tooltip-arrow,
+.tooltip.top-left .tooltip-arrow,
+.tooltip.top-right .tooltip-arrow {
+    border-top-color: $col
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: $col
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: $col
+}
+.tooltip.bottom .tooltip-arrow,
+.tooltip.bottom-left .tooltip-arrow,
+.tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: $col
+}
+#comments .info h2 a:hover {
+    color: $col
+}
+.vanilla-form input[type="radio"]:focus + span,
+.vanilla-form input[type="checkbox"]:focus + span,
+.vanilla-form input[type="radio"]:active + span,
+.vanilla-form input[type="checkbox"]:active + span {
+    border-color: $col
+}
+.vanilla-form input[type="radio"] + span::after {
+    background-color: $col;
+    border-color: $col;
+}
+.vanilla-form input[type="radio"]:checked + span,
+.vanilla-form input[type="checkbox"]:checked + span {
+    border: 1px solid $col
+}
+.vanilla-form input[type="checkbox"] + span::after {
+    border: 0 solid $col;
+}
+@media (min-width: 992px) { 
+	.navbar .dropdown-menu:before {
+	    border-bottom: 5px solid $col;
+	}
+}
+@media (max-width: 991px) {
+	.navbar .nav > li.current > a,
+	.navbar .nav > li > a:hover {
+	    color: $col !important
+	}
+	.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar .navbar-nav .open .dropdown-menu > li > a:focus {
+	    color: $col !important
+	}
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+    background: $col;
+}
+
+.spinner,
+.tp-loader.spinner0,
+.cbp-popup-singlePageInline:before,
+#fancybox-loading div {
+    border-left: 3px solid rgba(98, 184, 200,.15);
+    border-right: 3px solid rgba(98, 184, 200,.15);
+    border-bottom: 3px solid rgba(98, 184, 200,.15);
+    border-top: 3px solid rgba(98, 184, 200,.8);
+}
