@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="img/mini_logo.png">
+<title>Black Monkey</title>
+<link href="style/css/bootstrap.min.css" rel="stylesheet">
+<link href="style/css/plugins.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="style/css/color/lightgreen.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href="style/type/icons.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="preloader"><div class="textload">Loading</div><div id="status"><div class="spinner"></div></div></div>
+<main class="body-wrapper">
+  <div class="navbar solid light">
+    <div class="navbar-header">
+      <div class="basic-wrapper"> 
+        <div class="navbar-brand"> <a href="index.html"><img src="#" srcset="img/full_logo.png 1x" /></a> </div>
+        <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a>
+      </div>
+    </div>
+    <nav class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"><a href="index.html">Главная</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">О нас<span class="caret"></span></a>
+          <ul class="dropdown-menu"> 
+            <li><a href="history.html">История</a></li>
+            <li><a href="about.html">Деятельность</a></li>
+            <li><a href="questions.html">Часто задаваемые вопросы</a></li>
+          </ul>
+        </li> 
+        <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Услуги<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="price_photo.html">Фотосъёмка</a></li>
+            <li><a href="price_albums.html">Альбомы</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="portfolio.html">Портфолио</a></li>
+        <li class="current dropdown"><a href="#" class="dropdown-toggle js-activated">Контакты<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="map.html">Карта зон выезда</a></li>
+            <li><a href="contact.html">Обратная связь</a></li>    
+          </ul>
+        </li>
+       
+      </ul> 
+    </nav>
+    
+    <div class="social-wrapper">
+      <ul class="social naked">
+        <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+        <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+        <li><a href="#"><i class="icon-s-flickr"></i></a></li>
+        <li><a href="#"><i class="icon-s-instagram"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  
+  <div class="light-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2 class="section-title">Напишите нам</h2>
+          <p>Вы можете оставить своё сообщение или отзыв через форму.</p>
+          <div class="divide10"></div>
+          <div class="form-container">
+            <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="novalidate">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="text" name="name" placeholder="Имя" required="required">
+                    </label>
+                  </div>
+                </div>
+                <!--/column -->
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="email" name="email" placeholder="Ваш e-mail" required="required">
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="tel" name="tel" placeholder="Телефон">
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label class="custom-select">
+                      <select name="department" required="required">
+                        <option value="">Выбирете тему</option>
+                        <option value="Sales">Фотосессия</option>
+                        <option value="Marketing">Видеосъёмка</option>
+                        <option value="Support">Альбомы</option>
+                        <option value="Other">Другое</option>
+                      </select>
+                      <span></span> </label>
+                  </div>
+                </div>
+              </div>
+
+              <textarea name="message" placeholder="Введите своё сообщение здесь..." required="required"></textarea>
+              <div class="radio-set">
+                <label>Предмет письма:</label>
+                <label>
+                  <input type="radio" name="subject" value="General">
+                  <span></span>Отзыв</label>
+                <label>
+                  <input type="radio" name="subject" value="Hi">
+                  <span></span> Вопрос</label>
+                <label>
+                  <input type="radio" name="subject" value="Other">
+                  <span></span>Заказ услуги</label>
+              </div>
+              <!--/.radio-set -->
+              <input type="submit" class="btn" value="Отправить" data-error="Заполните все поля" data-processing="Отправка..." data-success="Спасибо!">
+              <footer class="notification-box"></footer>
+            </form>
+          </div>
+        </div>
+
+        
+        <aside class="col-sm-4">
+          <div class="sidebox widget">
+            <h3 class="widget-title">Адрес</h3>
+            <p>Наш юридический и физический адрес.</p>
+            <address>
+            <strong>ИП "Black Monkey"</strong><br>Минск, ул.Карла Маркса, дом 23, корпус 5.<br>
+            Телефон: (33) 890-56-43.<br>
+            E-mail: <a href="mailto:#">black.monkeyt@gmail.com</a>
+            </address>
+          </div>      
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  
+ <footer class="footer inverse-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="widget">
+            <h4 class="widget-title">Тэги</h4>
+            <ul class="tag-list">
+    
+              <li><a href="portfolio.html" class="btn">Свадьба</a></li>
+              <li><a href="portfolio.html" class="btn">Праздник</a></li>
+              <li><a href="portfolio.html" class="btn">Юбилей</a></li>
+            </ul>
+          </div>
+          </div>
+          
+        <div class="col-sm-4">
+          <div class="widget">
+            <h4 class="widget-title">Поиск</h4>
+            <form class="searchform" method="get">
+              <input type="text" id="s2" name="s" value="Search something" onfocus="this.value=''" onblur="this.value='Search something'">
+              <button type="submit" class="btn btn-default">Найти</button>
+            </form>
+          </div>
+          <div class="widget">
+        <a href="">© 2020 Black Monkey. Антонович Д. А.</a>
+          </div>
+        </div>
+             <div class="col-sm-4">
+          <div class="widget">
+            <h4 class="widget-title">Тэги</h4>
+            <ul class="tag-list">
+    
+              <li><a href="price_albums.html" class="btn">Альбомы</a></li>
+              <li><a href="price_photo.html" class="btn">Фотография</a></li>
+              <li><a href="price_photo.html" class="btn">Видео</a></li>
+            </ul>
+          </div>
+    </div>
+    </div>
+  </footer>
+  
+</main>
+<!--/.body-wrapper --> 
+<script src="style/js/jquery.min.js"></script> 
+<script src="style/js/bootstrap.min.js"></script> 
+<script src="style/js/plugins.js"></script> 
+<script src="style/js/classie.js"></script> 
+<script src="style/js/jquery.themepunch.tools.min.js"></script> 
+<script src="style/js/scripts.js"></script>
+</body>
+</html>
